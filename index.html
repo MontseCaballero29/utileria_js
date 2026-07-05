@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Registro</h1>
+        <form id="formularioRegistro">
+            <label for="nombre">Nombre:</label>
+            <input
+                type="text"
+                id="nombre"
+                placeholder="Ingresa tu nombre" >
+
+            <label for="correoRegistro">Correo:</label>
+            <input
+                type="text"
+                id="correoRegistro"
+                placeholder="correo@ejemplo.com" >
+
+            <label for="telefono">Teléfono:</label>
+            <input
+                type="text"
+                id="telefono"
+                placeholder="10 dígitos" >
+
+            <label for="fechaNacimiento"> Fecha de nacimiento: </label>
+
+            <input
+                type="date"
+                id="fechaNacimiento" >
+
+            <button type="submit"> Validar </button>
+
+            <button type="button" onclick="volverLogin()"> Volver al login</button>
+        </form>
+    </div>
+
+
+    <!-- MODAL -->
+    <div id="modalEdad" class="modal">
+        <div class="contenidoModal">
+            <h2>Datos válidos</h2>
+            <p id="mensajeEdad"></p>
+            <button  type="button" onclick="cerrarModal()" > Cerrar </button>
+        </div>
+    </div>
+
+    <script src="js/utileria.js"></script>
+    <script src="js/para-probar.js"></script>
+
+</body>
+
+</html>
