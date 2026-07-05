@@ -5,6 +5,8 @@ Validaciones para un login usando JS
 
 
 **Tecnológico Nacional de México / Instituto Tecnológico de Oaxaca**
+
+
 **Nombre:** Dalia Montserrat Caballero Silva  
 **Proyecto:** Librería de validaciones en JavaScript  
 **Materia:** Programación Web  
